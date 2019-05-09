@@ -1,0 +1,217 @@
+/* IMAGE URLS
+
+https://stmed.net/sites/default/files/captain-america-wallpapers-27534-7704642.jpg
+https://photobest1.com/wp-content/uploads/2017/02/Captain-America-Wallpapers-HD-05.jpg
+
+peggy and capn
+http://3.bp.blogspot.com/-VB3Gjv0TS8s/VogxBcOMlHI/AAAAAAAAES8/kHbFyUJSV5I/s1600/Steve-Rogers-Chris-Evans-and-Peggy-Carter-Hayley-Atwell-in-Captain-America-The-First-Avenger.jpg
+awkward both
+https://i.pinimg.com/736x/51/fb/60/51fb6026d81d3f95ac1262b8adf1cab2.jpg
+
+happy both
+https://data.whicdn.com/images/319118957/large.png
+
+
+Black Widow
+https://i.pinimg.com/originals/92/ee/95/92ee955d9c377d1413f8859228a13632.jpg
+
+Hulk and Black Widow
+https://pre00.deviantart.net/fb20/th/pre/f/2015/117/6/4/hulk_and_black_widow_by_steeven7620-d8qsgeq.png
+*/
+
+.profile-bw {
+    height: 60%;
+    background: url(https://static.comicvine.com/uploads/original/8/80111/6604639-hjackets-38.jpg
+    ) white center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+}
+
+.profile {
+    height: 60%;
+    background: url(https://stmed.net/sites/default/files/captain-america-wallpapers-27534-7704642.jpg) black center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+/* https://1.bp.blogspot.com/-mxv4DLyC7co/Vy_brkOFCbI/AAAAAAAABLk/qvFL7A2HAT0tMyOVugUc16eCtp5A-jyLQCKgB/s1600/Black-Widow-New-Poster2.jpg */
+
+#close-up-cap {
+    background: url(https://photobest1.com/wp-content/uploads/2017/02/Captain-America-Wallpapers-HD-05.jpg
+    ) center;
+    background-size: 140%;
+}
+
+#close-up-bw {
+
+    background: url(https://1.bp.blogspot.com/-mxv4DLyC7co/Vy_brkOFCbI/AAAAAAAABLk/qvFL7A2HAT0tMyOVugUc16eCtp5A-jyLQCKgB/s1600/Black-Widow-New-Poster2.jpg
+    ) top;
+    background-size: 100%;
+}
+
+.close-up {
+
+    position: absolute;
+    border: solid white 3px;
+    left: 1vw;
+    top: 55%;
+    
+    z-index: 1;
+    height: 13rem;
+    width: 13rem;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    
+}
+
+.peggy-captain {
+    display: flex;
+    
+    flex-wrap: wrap;
+    /* height: 50%; */
+}
+
+* {
+    box-sizing: border-box;  
+}
+
+.img {
+    border: solid #a5a5ab;
+    border-radius: .5rem;
+    margin-left: 1.5rem;
+    width: 80%;
+    margin-bottom: 2rem;
+ 
+}
+
+.column {
+    flex: 1;
+    min-width: 33.33%;
+}
+
+/* Captain America */
+.then {
+    
+    background: #870000;
+    color: white;
+    
+}
+
+.now {
+    
+    background: #f0f0f0;
+    color: black;
+}
+.later {
+    
+    /* background: #002d5c; */
+    background: #1B2B42;
+    color: white;
+}
+
+/*  Black Widow */
+.then-bw {
+    
+    background: #4f5b66;
+    color: white;
+}
+
+.now-bw {
+    
+    background: #343d46;
+    color: white;
+}
+
+.later-bw {
+    
+    background: #4f5b66;
+    color: white;
+}
+
+#then-heading {
+    margin: 8rem 0 0 2rem;
+}
+/*  */
+
+.scoot-left-down {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+
+/* When the screen gets wider than 600px */
+@media only screen and (max-width: 600px) {
+    .column {
+        
+        min-width: 100%;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 1050px) and (min-width: 601px){
+    .column {
+        
+        min-width: 50%;
+    }
+
+    .then-bw {
+        background: #343d46;
+        border-right: solid 2px white; 
+    }
+
+  }
+
+
+  /* Randon's CSS */
+  /* Move down content because we have a fixed navbar that is 50px tall */
+.jumbotron {
+    color: white;
+    background-image: url("../images/ironback.jpg");
+    height: 500px;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+  }
+  
+  #title_text {
+    float: left;
+    width: 30%;
+  }
+  
+  #navigation_bar {
+    margin: 0;
+    width: 100%;
+  
+  }
+  
+  @media only screen and (max-width: 900px) and (min-width: 601px) {
+    .jumbotron {
+      background-position-x: right;
+    }
+  
+    #title_text {
+      float: right;
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    .jumbotron {
+      background-position-x: right;
+    }
+    #title_text {
+      float: right;
+      width: 70%;
+    }
+  }
+  @media only screen and (max-width: 1050px) and (min-width: 901px){
+    .jumbotron {
+      background-position-x: center;
+    }
+  
+   
+  }
